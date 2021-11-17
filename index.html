@@ -3,16 +3,49 @@
   <head>
     <meta charset="utf-8">
     <title>Technologies Notes</title>
+    <style>
+      h1 {
+        border-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #A4A4A4;
+        padding: 10px;
+        padding-left: 20px;
+        margin: 0;
+      }
+      #grid {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            line-height: 150%;
+          }
+          #navigation {
+            margin-top: 0;
+            padding-top: 0;
+            border-right: 1px solid #A4A4A4;
+            width: 220px;
+          }
+    </style>
   </head>
   <body>
     <h1>Technologies Notes</h1>
-    <ul>
-      <li> <a href="vba/index.html"> VBA </a> </li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Python</li>
-    </ul>
-    <p>It is a tool that makes something possible.</p>
+    <div id="grid">
+      <div id="navigation">
+        <ul>
+          <li> <a href="vba/index.html"> VBA </a> </li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+        </ul>
+      </div>
+      <div id="article">
+        <h2>Tools that make something possible.</h2>
+		    <img src="clock.jpg" alt="Image" height="300">
+        <img src="letter.jpg" alt="Image" height="250">
+        <p> Clock made people use more time.</p>
+        <p> Movable type made peope read more. </p>
+        <p> </p>
+      </div>
+    </div>
+
   </body>
 </html>
