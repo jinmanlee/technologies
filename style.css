@@ -1,0 +1,22 @@
+h1, h3 {
+  border-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #A4A4A4;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 0;
+}
+#grid {
+      display: grid;
+      grid-template-columns: 230px 1fr;
+      line-height: 150%;
+    }
+    #navigation {
+      margin-top: 0;
+      padding-top: 0;
+      border-right: 1px solid #A4A4A4;
+      width: 200px;
+    }
+.body1 {
+  color: red;
+}
