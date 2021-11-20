@@ -11,11 +11,11 @@
 
         gtag('config', 'G-ZYKHC3EFS8');
     </script>
-    <title>VBA</title>
+    <title>Excel VBA</title>
     <link rel="stylesheet" href="../style.css">
   </head>
   <body>
-    <h3> <a href="../index.html">Technologies Notes</a> > <a href="main.html">VBA</a> </h3>
+    <h3> <a href="../index.html">Technologies Notes</a> > <a href="main.html">VBA</a> > <a href="excel_vba.html">Excel VBA</a> </h3>
     <div id="grid">
       <div id="navigation">
         <ul>
@@ -25,18 +25,25 @@
             <li> Excel with PowerPoint</li>
             <li> Excel with Outlook</li>
           </ul>
-
         </ul>
       </div>
       <div id="article">
-        <p> Visual Basic for Applications is an implementation of Microsoft's event-driven programming language Visual Basic 6, <br>
-          which was declared legacy in 2008, and is an associated integrated development environment. </p>
-        <p> Developer: Microsoft <br>
-         Typing discipline: Static/Dynamic Hybrid, Strong/Weak Hybrid <br>
-         First appeared: 1993 <br>
-         Stable release: 7.1 (Office 2019) <br>
-         License: Commercial proprietary software <br>
-         Paradigm: Multi-paradigm </p>
+        <p>
+          Workbooks("MyData.xlsx").Worksheets("MySheet").Select<br>
+          ActiveWindow.RangeSelection.Value = 12<br>
+          Worksheets("Sheet1").Range("A1").Value = 12.3<br>
+          Worksheets("Sheet1").Cells(1, 1) = 9<br>
+          Range("A1:D10").Cells(5) = 2000<br>
+          Range("A1:B10").Value = 2<br>
+          Range("A1", "B10") = 2<br>
+          Range("A1,A3,A5,A7,A9") = 4<br>
+          Range("C1:C10 A6:E6") = 3<br>
+          ActiveCell.Cells(2, 1) = 5<br>
+          ActiveCell.Offset(1,0).Value = 12<br>
+          ActiveCell.Offset(-1,0).Value = 15<br>
+          ActiveCell.Range("B2") = 5<br>
+        </p>
+
       </div>
   </body>
 </html>
